@@ -93,8 +93,8 @@ def fusion(i1,i2,mode):
     f = pywt.idwt2(coef,"coif5",mode="periodization")
     return f
 
-i1 = cv.imread("Patient Data/p2/ct.jpg", 1)
-i2 = cv.imread("Patient Data/p2/mri_registered.jpg", 1)
+i1 = cv.imread("Patient Data/p3/ct.jpg", 1)
+i2 = cv.imread("Patient Data/p3/mri_registered.jpg", 1)
 i2 = cv.resize(i2,(i1.shape[1], i1.shape[0]))
 b1, g1, r1 = cv.split(i1)
 b2, g2, r2 = cv.split(i2)
