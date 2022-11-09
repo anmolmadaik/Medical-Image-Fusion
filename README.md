@@ -1,2 +1,1 @@
-# Medical Image Fusion
- 
+Medical image fusion aims to combine information from different sources acquired with different imaging modalities to improve the diagnosis and treatment of diseases. We aim to create a model that will improve the fusion effect, image detail clarity and time efficiency.
